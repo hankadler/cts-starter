@@ -1,6 +1,6 @@
 /* file to test eslint rules on */
 
-import { dirname, join, resolve } from "path";
+const { dirname, join, resolve } = require("path");
 
 console.log(dirname(__filename));
 console.log(resolve(__dirname, ".."));
