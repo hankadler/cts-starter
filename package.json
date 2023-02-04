@@ -6,7 +6,7 @@
     "lint": "eslint .",
     "format": "eslint . --fix",
     "ts-node": "ts-node",
-    "dev": "cross-env NODE_ENV=development ts-node",
+    "dev": "cross-env NODE_ENV=development ts-node src/index.ts",
     "test": "cross-env NODE_ENV=test ts-mocha",
     "start": "cross-env NODE_ENV=production ts-node src/index.ts"
   },
