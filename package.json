@@ -1,0 +1,26 @@
+{
+  "name": "core-cts",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "eslint . --fix",
+    "ts-node": "ts-node",
+    "dev": "cross-env NODE_ENV=development ts-node",
+    "test": "cross-env NODE_ENV=test ts-mocha",
+    "start": "cross-env NODE_ENV=production ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.18",
+    "@types/sinon": "^10.0.13",
+    "@typescript-eslint/parser": "^5.48.0",
+    "cross-env": "^7.0.3",
+    "eslint": "8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "sinon": "^15.0.1",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
